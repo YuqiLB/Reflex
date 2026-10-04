@@ -13,9 +13,8 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [Raspberry Pi Pico H Kit](https://www.canakit.com/raspberry-pi-pico.html?srsltid=AU7gw4XyUgiCmumqJkxMBNFHSTdNOsgAPKwy-OjkPvdqqANC9TAnp2ed) | microcontroller - control components and read data, kit contains breadboard, jumper wires, LED, push buttons, resistors | 1 | $28.95 | $28.95 | [CanaKit](https://www.canakit.com/raspberry-pi-pico.html?srsltid=AU7gw4XyUgiCmumqJkxMBNFHSTdNOsgAPKwy-OjkPvdqqANC9TAnp2ed) |
-| [0.96" SSD1306 OLED](https://www.amazon.ca/CANADUINO-OLED-Display-128x64-Pixel/dp/B077D4RQG1) | Display reaction time | 1 | $4.99 | $4.99 | [Amazon](https://www.amazon.ca/CANADUINO-OLED-Display-128x64-Pixel/dp/B077D4RQG1) |
-| **Parts subtotal** | — | — | — | **$33.94** | — |
+| **Parts subtotal** | — | — | — | **$28.95** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$33.94** | — |
+| **Total** | — | — | — | **$28.95** | — |
 
-**$3.94 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$1.05 left of the tier's funding.
