@@ -16,7 +16,7 @@
 
 1. [2026-10-04 — Project planning & component research.](#2026-10-04-project-planning-component-research)
 2. [2026-10-04 — Adding parts to the Bill of Materials](#2026-10-04-adding-parts-to-the-bill-of-materials)
-3. [2026-10-04 — Starting Firmware and cooking up the PCB.](#2026-10-04-starting-firmware-and-cooking-up-the-pcb)
+3. [2026-10-04 — Starting Firmware and cooking up the PCB](#2026-10-04-starting-firmware-and-cooking-up-the-pcb)
 
 ## Design
 
@@ -50,11 +50,11 @@ The new modified system looks more like this:
 
 ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/cavLLmYzVkZWo0utyyD4hUaCvcnGNniC/1d8a872c8e60a7723921cec531ba54818fb29bdabe386f729fb5c36364a608ea.png)
 
-### 2026-10-04 — Starting Firmware and cooking up the PCB.
+### 2026-10-04 — Starting Firmware and cooking up the PCB
 
 **5h**
 
-Starting Firmware and cooking up the PCB.
+Starting Firmware and cooking up the PCB
 
 Firmware:
 Using the Pin library, I'm able to easily code with the ports on the Raspberry Pi in python. After I set up the components with the ports, I made the logic for turning on the LED and counting the time to receive the button input. The random library is used to create a random starting time, and some while loops and if statements are used to prevent cheating by pressing the button before it starts.
