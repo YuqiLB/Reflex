@@ -10,10 +10,14 @@ print("Press the button to start!")
 while 1:
     if button.value() == 0:
         print("Button Pressed!")
+        while button.value() == 0: 
+            pass
         break
 
 while 1:
     led.off()
+    pressed_too_early = False
+
     print("Ready?")
     print("...")
 
@@ -35,11 +39,13 @@ while 1:
 
         while button.value() == 1:
             pass
-            # pass if the button is not pressed, loop until it is pressed
         timeend = time.ticks_ms()
 
         print("Rxn Time: ", time.ticks_diff(timeend, timestart), "ms")
         led.off()
+
+        while button.value() == 0: 
+            pass
 
     time.sleep(1)
     
