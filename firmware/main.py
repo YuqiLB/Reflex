@@ -4,6 +4,8 @@ import random
 
 led = Pin(14, Pin.OUT)
 button = Pin(15, Pin.IN, Pin.PULL_UP) #Pull up or down?
+total_time = 0
+completed_rounds = 0
 
 print("Start Program Now.")
 print("Press the button to start!")
@@ -14,7 +16,7 @@ while 1:
             pass
         break
 
-while 1:
+while completed_rounds < 5:
     led.off()
     pressed_too_early = False
 
@@ -40,13 +42,15 @@ while 1:
         while button.value() == 1:
             pass
         timeend = time.ticks_ms()
+        total_time += time.ticks_diff(timeend, timestart)
 
         print("Rxn Time: ", time.ticks_diff(timeend, timestart), "ms")
         led.off()
 
+        completed_rounds += 1
         while button.value() == 0: 
             pass
 
     time.sleep(1)
-    
+print ("Average Reaction Time: ", total_time / 5, "ms")
     
