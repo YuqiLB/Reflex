@@ -1,0 +1,11 @@
+Part,Purpose,Qty,Unit Price,Total,Vendor,Link
+Raspberry Pi Pico H Kit,"Microcontroller that runs the timer and reads the button; kit also includes the breadboard, jumper wires, LED, pushbuttons and resistors",1,28.95,28.95,CanaKit,https://www.canakit.com/raspberry-pi-pico.html
+Raspberry Pi Pico H (from kit),Main controller,1,0.00,0.00,CanaKit,Included in kit
+6 mm tactile pushbutton (from kit),Reaction input,1,0.00,0.00,CanaKit,Included in kit
+5 mm LED (from kit),Go signal,1,0.00,0.00,CanaKit,Included in kit
+220 ohm resistor (from kit),Current limiting for the LED,1,0.00,0.00,CanaKit,Included in kit
+Breadboard (from kit),Prototyping before the PCB,1,0.00,0.00,CanaKit,Included in kit
+Jumper wires (from kit),Prototyping connections,1,0.00,0.00,CanaKit,Included in kit
+Parts subtotal,,,,28.95,,
+Tax & shipping,,,,0.00,,
+Total,,,,28.95,,
